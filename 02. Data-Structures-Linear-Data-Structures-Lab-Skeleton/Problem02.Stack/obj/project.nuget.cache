@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aCxL4/OwR2/rnHRax6mCTEP6Ir3aO4NnmilVo9SnrT9B9Ws6oZP9Kdn2F/ErCl6CKmDOIXzrf9KXOQk038niAg==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\\Problem02.Stack\\Problem02.Stack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
