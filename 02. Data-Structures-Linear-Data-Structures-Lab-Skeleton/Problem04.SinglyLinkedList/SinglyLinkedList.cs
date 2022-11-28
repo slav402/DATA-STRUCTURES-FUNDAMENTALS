@@ -6,46 +6,134 @@
 
     public class SinglyLinkedList<T> : IAbstractLinkedList<T>
     {
-        public int Count => throw new NotImplementedException();
+        private class Node
+        {
+            public T Element { get; set; }
+            public Node Next { get; set; }
+
+            public Node(T element, Node next)
+            {
+                this.Element = element;
+                this.Next = next;
+            }
+
+            public Node(T element)
+            {
+                this.Element = element;
+            }
+        }
+
+        private Node head;
+        
+        public int Count { get; private set; }
 
         public void AddFirst(T item)
         {
-            throw new NotImplementedException();
+            var node = new Node(item, this.head);
+            this.head = node;
+            this.Count++;
         }
 
         public void AddLast(T item)
         {
-            throw new NotImplementedException();
+            var newNode = new Node(item);
+            if (this.head == null)
+            {
+                this.head = newNode;
+            }
+            else
+            {
+                var node = this.head;
+
+                while (node.Next != null)
+                {
+                    node = node.Next;
+                }
+
+                node.Next = newNode;
+            }
+            this.Count++;
         }
 
-        public IEnumerator<T> GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
 
         public T GetFirst()
         {
-            throw new NotImplementedException();
+            IsEmpty();
+
+            return head.Element;
         }
 
         public T GetLast()
         {
-            throw new NotImplementedException();
+            IsEmpty();
+
+            var node = this.head;
+
+            while (node.Next != null)
+            {
+                node = node.Next;
+            }
+
+            return node.Element;
         }
 
         public T RemoveFirst()
         {
-            throw new NotImplementedException();
+            IsEmpty();
+
+            var oldFirst = this.head;
+            this.head = oldFirst.Next;
+            this.Count--;
+            return oldFirst.Element;
         }
 
         public T RemoveLast()
         {
-            throw new NotImplementedException();
+            IsEmpty();
+
+            if (this.Count == 1)
+            {
+                var singleElem = this.head;
+                this.head = null;
+                this.Count--;
+                return singleElem.Element;
+            }
+            
+            var element = this.head;
+
+            while (element.Next.Next != null)
+            {
+                element = element.Next;
+            }
+
+            var lastElement = element.Next;
+            element.Next = null;
+            this.Count--;
+            return lastElement.Element;
+        }
+        
+        public IEnumerator<T> GetEnumerator()
+        {
+            var node = this.head;
+
+            while (node != null)
+            {
+                yield return node.Element;
+                node = node.Next;
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return GetEnumerator();
+        }
+
+        public void IsEmpty()
+        {
+            if (this.head == null)
+            {
+                throw new InvalidOperationException();
+            }
         }
     }
 }
