@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NTQtmyi+ijB95hEbhkCTLq/wJs0LH7Y4oTtorysYYvcC1Ik7PdejrDCtul27tPFsxkl57BAw8xr5qHQbGaKcpw==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\03. Linear-Data-Structures-Exercise-Skeleton\\03.ReversedList\\03.ReversedList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

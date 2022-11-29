@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5JRPyZcsHJl5//OCgWVS2iQUn4XY7lKtCNBng5cLR6VmNNuV4qNLLmDh00lI9+f2fI4lMzPv8UuqEAlB5kRFUw==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\03. Linear-Data-Structures-Exercise-Skeleton\\01.FasterQueue\\01.CircularQueue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

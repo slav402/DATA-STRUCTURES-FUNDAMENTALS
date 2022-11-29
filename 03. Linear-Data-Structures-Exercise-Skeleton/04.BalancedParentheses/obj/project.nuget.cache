@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q53fpsnDiC1BM/xMrTRT2ZRi474/JGbg7m7CgIw4nuO/FC3KBImOhgpSEReS9uO4j45ktJ7YTIMCsKLRuvoQ4A==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\03. Linear-Data-Structures-Exercise-Skeleton\\04.BalancedParentheses\\04.BalancedParentheses.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

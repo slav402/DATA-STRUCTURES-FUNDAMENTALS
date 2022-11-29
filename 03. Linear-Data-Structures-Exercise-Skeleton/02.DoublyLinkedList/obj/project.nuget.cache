@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "f7/tRQXdGsa18p7PeiONfYhvcJwQnY8A/2XKIaoJFTdKNWqgmGFvsNXWAKRW4dxIKqmRsVcIxo0o12Loo6L4PQ==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\03. Linear-Data-Structures-Exercise-Skeleton\\02.DoublyLinkedList\\02.DoublyLinkedList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
