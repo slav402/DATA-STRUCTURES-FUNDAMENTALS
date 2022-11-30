@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zKFg2LTAstdalTr377OpDRYBQJ8BZ2LDpXIbtGo48PTwqV7DYJwpUnOFjOfvb2Uu/yTuneiGuPBKRWjjKWF2aQ==",
+  "dgSpecHash": "D+1rLoUjJKX8MbOh30dLn3x5o5Nu912+ALUrU5/SGjMiBNyQkNtzuI+yZyJ/ttNUZ7PUhkuBBPKeKHTHoq4tow==",
   "success": true,
-  "projectFilePath": "/Users/ssheytanov/Documents/Svn/DS/Feb-2022/1.DS-Fundamentals/04.Trees-Representation-and-Traversal-(BFS-DFS)/04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton/Tree/Tree.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\\Tree\\Tree.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
