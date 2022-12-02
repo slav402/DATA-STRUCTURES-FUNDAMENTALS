@@ -5,7 +5,7 @@
 
     public class Tree<T> : IAbstractTree<T>
     {
-        private readonly List<Tree<T>> children;
+        private  List<Tree<T>> children;
         private T value;
         private Tree<T> parent;
 
@@ -32,7 +32,22 @@
 
         public IEnumerable<T> OrderBfs()
         {
-            throw new NotImplementedException();
+            var queue = new Queue<Tree<T>>() {  };
+            var result = new List<T>();
+            queue.Enqueue(this);
+
+            while (queue.Count > 0)
+            {
+                var subtree = queue.Dequeue();
+                result.Add(subtree.value);
+
+                foreach (var childe in subtree.children)
+                {
+                    queue.Enqueue(childe);
+                }
+            }
+
+            return result;
         }
 
         public IEnumerable<T> OrderDfs()
