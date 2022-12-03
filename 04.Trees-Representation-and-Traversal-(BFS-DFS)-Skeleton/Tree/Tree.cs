@@ -140,7 +140,7 @@
 
             //parentNode.children = parentNode.children.Where(node => !node.value.Equals(nodeKey)).ToList();
             parentNode.children.Remove(toBeDelitedNode); //tova e ekvivalent na gornoto
-        }
+        }       
 
         public void Swap(T firstKey, T secondKey)
         {
@@ -165,7 +165,10 @@
             var indexOfSecondNode = secondParent.children.IndexOf(secondNode);
 
             firstParent.children[indexOfFirstNode] = secondNode;
+            secondNode.parent = firstParent;
+
             secondParent.children[indexOfSecondNode] = firstNode;
+            firstNode.parent = secondParent;
         }
     }
 }
