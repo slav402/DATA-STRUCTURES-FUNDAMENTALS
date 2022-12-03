@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nus7PMZmUjZUl4+U6cSlyQoBZBPyBLWsJK4RwJfx/YmYUOQfznv3DVUvz77lBcDSaWoLv6aWr0djOAfKL8Ae8g==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\\Demo\\Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

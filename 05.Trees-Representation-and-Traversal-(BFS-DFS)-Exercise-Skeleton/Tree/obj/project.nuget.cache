@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "POwvDybCgkunHnaFh8VBH9HULXwENVdGP2iPfFLH8zsrY87lb1Giao0mG14I9bGwHK2diNmXhz+K6VuZQp67Ag==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\\Tree\\Tree.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
