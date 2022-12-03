@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class Tree<T> : IAbstractTree<T>
     {
@@ -27,7 +28,39 @@
 
         public void AddChild(T parentKey, Tree<T> child)
         {
-            throw new NotImplementedException();
+            var parentNode = this.FindNodeWithDfs(parentKey);
+
+            if (parentNode is null)
+            {
+                throw new ArgumentNullException();
+            }
+            
+            parentNode.children.Add(child);
+            child.parent = parentNode;
+        }
+
+        private Tree<T> FindNodeWithDfs(T parentKey)
+        {
+            var workingQueue = new Queue<Tree<T>>();
+            
+            workingQueue.Enqueue(this);
+
+            while (workingQueue.Count > 0)
+            {
+                var subtree = workingQueue.Dequeue();
+
+                if (subtree.value.Equals(parentKey))
+                {
+                    return subtree;
+                }
+
+                foreach (var child in subtree.children)
+                {
+                    workingQueue.Enqueue(child);
+                }
+            }
+
+            return null;
         }
 
         public IEnumerable<T> OrderBfs()
@@ -91,12 +124,48 @@
 
         public void RemoveNode(T nodeKey)
         {
-            throw new NotImplementedException();
+            var toBeDelitedNode = this.FindNodeWithDfs(nodeKey);
+
+            if (toBeDelitedNode is null)
+            {
+                throw new ArgumentNullException();
+            }
+
+            var parentNode = toBeDelitedNode.parent;
+
+            if (parentNode == null)
+            {
+                throw new ArgumentException();
+            }
+
+            //parentNode.children = parentNode.children.Where(node => !node.value.Equals(nodeKey)).ToList();
+            parentNode.children.Remove(toBeDelitedNode); //tova e ekvivalent na gornoto
         }
 
         public void Swap(T firstKey, T secondKey)
         {
-            throw new NotImplementedException();
+            var firstNode = this.FindNodeWithDfs(firstKey);
+            var secondNode = this.FindNodeWithDfs(secondKey);
+
+            if (firstNode is null || secondNode is null)
+            {
+                throw new ArgumentNullException();
+            }
+
+            var firstParent = firstNode.parent;
+            var secondParent = secondNode.parent;
+
+
+            if (firstParent is null || secondParent is null)
+            {
+                throw new ArgumentException();
+            }
+
+            var indexOfFirstNode = firstParent.children.IndexOf(firstNode);
+            var indexOfSecondNode = secondParent.children.IndexOf(secondNode);
+
+            firstParent.children[indexOfFirstNode] = secondNode;
+            secondParent.children[indexOfSecondNode] = firstNode;
         }
     }
 }
