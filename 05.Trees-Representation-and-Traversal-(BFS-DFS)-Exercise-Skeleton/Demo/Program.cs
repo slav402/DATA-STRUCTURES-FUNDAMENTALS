@@ -12,6 +12,10 @@
             var treeFactory = new IntegerTreeFactory();
 
             var tree = treeFactory.CreateTreeFromStrings(input);
+
+            //Console.WriteLine(tree.AsString());
+            //Console.WriteLine(string.Join(", ", tree.GetLeafKeys()));
+            Console.WriteLine(string.Join(", ", tree.GetInternalKeys()));
         }
     }
 }
