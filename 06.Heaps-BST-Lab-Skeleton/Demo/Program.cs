@@ -9,6 +9,12 @@ namespace Demo
     {
         static void Main(string[] args)
         {
+            var tree = new BinarySearchTree<int>();
+
+            tree.Insert(10);
+            tree.Insert(12);
+
+            tree.EachInOrder(Console.WriteLine);
         }
     }
 }
