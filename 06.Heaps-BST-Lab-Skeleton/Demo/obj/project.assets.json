@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "02.BinarySearchTree/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/02.BinarySearchTree.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/02.BinarySearchTree.dll": {}
+        }
+      },
+      "03.MaxHeap/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/03.MaxHeap.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/03.MaxHeap.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "02.BinarySearchTree/1.0.0": {
+      "type": "project",
+      "path": "../02.BinarySearchTree/02.BinarySearchTree.csproj",
+      "msbuildProject": "../02.BinarySearchTree/02.BinarySearchTree.csproj"
+    },
+    "03.MaxHeap/1.0.0": {
+      "type": "project",
+      "path": "../03.MaxHeap/03.MaxHeap.csproj",
+      "msbuildProject": "../03.MaxHeap/03.MaxHeap.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "02.BinarySearchTree >= 1.0.0",
+      "03.MaxHeap >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\06.Heaps-BST-Lab-Skeleton\\Demo\\Demo.csproj",
+      "projectName": "Demo",
+      "projectPath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\06.Heaps-BST-Lab-Skeleton\\Demo\\Demo.csproj",
+      "packagesPath": "C:\\Users\\Salvi Zekov\\.nuget\\packages\\",
+      "outputPath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\06.Heaps-BST-Lab-Skeleton\\Demo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Salvi Zekov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\06.Heaps-BST-Lab-Skeleton\\02.BinarySearchTree\\02.BinarySearchTree.csproj": {
+              "projectPath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\06.Heaps-BST-Lab-Skeleton\\02.BinarySearchTree\\02.BinarySearchTree.csproj"
+            },
+            "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\06.Heaps-BST-Lab-Skeleton\\03.MaxHeap\\03.MaxHeap.csproj": {
+              "projectPath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\06.Heaps-BST-Lab-Skeleton\\03.MaxHeap\\03.MaxHeap.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

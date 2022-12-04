@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "N50PfEDyGEId6CehKKLZ4+OJG1PApQ5sDRYj3ZhvQcoXVD2RUNeGj5/BCN+zupY7tBTibHKXh2ptwE1PIgufdg==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\06.Heaps-BST-Lab-Skeleton\\01.BinaryTree\\01.BinaryTree.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
