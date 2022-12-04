@@ -59,15 +59,15 @@
 
         public IEnumerable<T> GetInternalKeys()
         {
-            return DfsWithResultKeys(x => x.Children.Count > 0 && x.Parent != null).Select(tree => tree.Key);
+            return BfsWithResultKeys(x => x.Children.Count > 0 && x.Parent != null).Select(tree => tree.Key);
         }
 
         public IEnumerable<T> GetLeafKeys()
         {
-            return DfsWithResultKeys(x => x.children.Count == 0).Select(tree => tree.Key); // tuk i na gornata funkciq izpolzvam predikat za da spestq pisane na kod. Sazdadoh metoda "DfsWithResultKeys" poneje koda i za dwete funkcii e ednakav kato v metoda zalovih uslowie koeto se izvikva (Invoke) pri izpalnenieto mu. A samoto uslovie se naricha "Predicate" i go zalagam pri izvikvaneto na metoda (x => x.children.Count == 0)
+            return BfsWithResultKeys(x => x.children.Count == 0).Select(tree => tree.Key); // tuk i na gornata funkciq izpolzvam predikat za da spestq pisane na kod. Sazdadoh metoda "DfsWithResultKeys" poneje koda i za dwete funkcii e ednakav kato v metoda zalovih uslowie koeto se izvikva (Invoke) pri izpalnenieto mu. A samoto uslovie se naricha "Predicate" i go zalagam pri izvikvaneto na metoda (x => x.children.Count == 0)
         }
 
-        private IEnumerable<Tree<T>> DfsWithResultKeys(Predicate<Tree<T>> predicate)
+        private IEnumerable<Tree<T>> BfsWithResultKeys(Predicate<Tree<T>> predicate)
         {
             var result = new List<Tree<T>>();
             var queue = new Queue<Tree<T>>();
@@ -99,7 +99,7 @@
 
         private Tree<T> GetDeepestNode()
         {
-            var leafs = this.DfsWithResultKeys(tree => tree.children.Count == 0);
+            var leafs = this.BfsWithResultKeys(tree => tree.children.Count == 0);
 
             Tree<T> deepestNode = null;
             var maxDept = 0;
@@ -134,7 +134,16 @@
 
         public IEnumerable<T> GetLongestPath()
         {
-            throw new NotImplementedException();
+            var current = GetDeepestNode();
+            var path = new Stack<T>();
+
+            while(current != null)
+            {
+                path.Push(current.Key);
+                current = current.Parent;
+            }
+
+            return path;
         }
     }
 }
