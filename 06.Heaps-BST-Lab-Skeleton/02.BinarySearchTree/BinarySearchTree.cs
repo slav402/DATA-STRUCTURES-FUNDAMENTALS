@@ -22,9 +22,49 @@
 
         public BinarySearchTree() { }
 
+        private BinarySearchTree(Node node)
+        {
+            this.PreOrederCopy(node);
+        }
+
+        private void PreOrederCopy(Node node)
+        {
+            if (node == null)
+            {
+                return;
+            }
+
+            this.Insert(node.Value);
+            this.PreOrederCopy(node.Left);
+            this.PreOrederCopy(node.Right);
+        }
+
         public bool Contains(T element)
         {
-            throw new NotImplementedException();
+            return this.FindNode(element) != null;
+        }
+
+        private Node FindNode(T element)
+        {
+            var node = this.root;
+
+            while (node != null)
+            {
+                if (element.CompareTo(node.Value) < 0 )
+                {
+                    node = node.Left;
+                }
+                else if (element.CompareTo(node.Value) > 0)
+                {
+                    node = node.Right;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            return node;
         }
 
         public void EachInOrder(Action<T> action)
@@ -71,7 +111,14 @@
 
         public IBinarySearchTree<T> Search(T element)
         {
-            throw new NotImplementedException();
+            var node = this.FindNode(element);
+
+            if (node == null)
+            {
+                return null;
+            }
+
+            return new BinarySearchTree<T>(node); ;
         }
     }
 }

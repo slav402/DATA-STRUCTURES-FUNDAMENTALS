@@ -11,10 +11,21 @@ namespace Demo
         {
             var tree = new BinarySearchTree<int>();
 
-            tree.Insert(10);
-            tree.Insert(12);
+            tree.Insert(8);
+            tree.Insert(4);
+            tree.Insert(2);
+            tree.Insert(6);
 
-            tree.EachInOrder(Console.WriteLine);
+            tree.EachInOrder(x => Console.Write(x + ", "));
+            Console.WriteLine();
+
+            var newTree = tree.Search(6);
+            newTree.Insert(9);
+
+            newTree.EachInOrder(x => Console.Write(x + ", "));
+            Console.WriteLine();
+
+            
         }
     }
 }
