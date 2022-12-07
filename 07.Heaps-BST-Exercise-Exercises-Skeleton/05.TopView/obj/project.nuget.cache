@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "egh+6UmGIEAF+lumb/3FxaDRDOUHo0OPlLTRUJpheCASnc+Ukarmnyq/gHCwGQi7t4OixA/f1Scizt0qLP6X7w==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\07.Heaps-BST-Exercise-Exercises-Skeleton\\05.TopView\\05.TopView.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,99 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Playground/1.0.0": {
+        "dependencies": {
+          "01.BinarySearchTree": "1.0.0",
+          "02.LowestCommonAncestor": "1.0.0",
+          "03.MinHeap": "1.0.0",
+          "04.CookiesProblem": "1.0.0",
+          "05.TopView": "1.0.0"
+        },
+        "runtime": {
+          "Playground.dll": {}
+        }
+      },
+      "SoftUni.Wintellect.PowerCollections/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Wintellect.PowerCollections.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "01.BinarySearchTree/1.0.0": {
+        "runtime": {
+          "01.BinarySearchTree.dll": {}
+        }
+      },
+      "02.LowestCommonAncestor/1.0.0": {
+        "runtime": {
+          "02.LowestCommonAncestor.dll": {}
+        }
+      },
+      "03.MinHeap/1.0.0": {
+        "runtime": {
+          "03.MinHeap.dll": {}
+        }
+      },
+      "04.CookiesProblem/1.0.0": {
+        "dependencies": {
+          "03.MinHeap": "1.0.0",
+          "SoftUni.Wintellect.PowerCollections": "2.0.0"
+        },
+        "runtime": {
+          "04.CookiesProblem.dll": {}
+        }
+      },
+      "05.TopView/1.0.0": {
+        "runtime": {
+          "05.TopView.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Playground/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoftUni.Wintellect.PowerCollections/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jmx9igyEyHA+/0uVYrq6iT6rqgw7CbbLKDd9PD5MuTabBGmpdo+PLqw9LORWSfkEF+C3O4viB2GJxYyd3YYGEA==",
+      "path": "softuni.wintellect.powercollections/2.0.0",
+      "hashPath": "softuni.wintellect.powercollections.2.0.0.nupkg.sha512"
+    },
+    "01.BinarySearchTree/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "02.LowestCommonAncestor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "03.MinHeap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "04.CookiesProblem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "05.TopView/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
