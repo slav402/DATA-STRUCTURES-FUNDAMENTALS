@@ -47,18 +47,32 @@
             var firstNodeAncestors = this.FindAncestors(firstNode);
             var secondNodeAncestors = this.FindAncestors(secondNode);
 
-            return firstNodeAncestors.Intersect(secondNodeAncestors).First();
+            //return firstNodeAncestors.Intersect(secondNodeAncestors).First();
+
+            var current = firstNodeAncestors.Dequeue();
+
+            while (firstNodeAncestors.Count > 0)
+            {
+                if (secondNodeAncestors.Contains(current))
+                {
+                    return current;
+                }
+
+                current = firstNodeAncestors.Dequeue();
+            }
+
+            return current;
         }
 
-        private List<T> FindAncestors(BinaryTree<T> root)
+        private Queue<T> FindAncestors(BinaryTree<T> root)
         {
-            var result = new List<T>();
+            var result = new Queue<T>();
 
             var current = root;
 
             while (current != null)
             {
-                result.Add(current.Value);
+                result.Enqueue(current.Value);
                 current = current.Parent;
             }
 
