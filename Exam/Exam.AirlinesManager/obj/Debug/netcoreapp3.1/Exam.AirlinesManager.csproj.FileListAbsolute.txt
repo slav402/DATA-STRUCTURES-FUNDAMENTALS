@@ -1,0 +1,14 @@
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.exe
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.deps.json
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.runtimeconfig.json
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.runtimeconfig.dev.json
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.dll
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.pdb
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.csproj.AssemblyReference.cache
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.AssemblyInfoInputs.cache
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.AssemblyInfo.cs
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.csproj.CoreCompileInputs.cache
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.dll
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.pdb
+C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.genruntimeconfig.cache
