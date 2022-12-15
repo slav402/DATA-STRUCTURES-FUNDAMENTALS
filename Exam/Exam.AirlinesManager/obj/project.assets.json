@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Salvi Zekov\\Desktop\\New folder\\Exam\\Exam.AirlinesManager\\Exam.AirlinesManager.csproj",
+      "projectUniqueName": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\Exam\\Exam.AirlinesManager\\Exam.AirlinesManager.csproj",
       "projectName": "Exam.AirlinesManager",
-      "projectPath": "C:\\Users\\Salvi Zekov\\Desktop\\New folder\\Exam\\Exam.AirlinesManager\\Exam.AirlinesManager.csproj",
+      "projectPath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\Exam\\Exam.AirlinesManager\\Exam.AirlinesManager.csproj",
       "packagesPath": "C:\\Users\\Salvi Zekov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Salvi Zekov\\Desktop\\New folder\\Exam\\Exam.AirlinesManager\\obj\\",
+      "outputPath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\Exam\\Exam.AirlinesManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

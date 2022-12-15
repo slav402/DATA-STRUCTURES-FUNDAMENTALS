@@ -12,3 +12,17 @@ C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netc
 C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.dll
 C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.pdb
 C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.genruntimeconfig.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.exe
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.deps.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.runtimeconfig.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.runtimeconfig.dev.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.dll
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\bin\Debug\netcoreapp3.1\Exam.AirlinesManager.pdb
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.csproj.AssemblyReference.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.AssemblyInfoInputs.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.AssemblyInfo.cs
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.csproj.CoreCompileInputs.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.dll
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.pdb
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.AirlinesManager\obj\Debug\netcoreapp3.1\Exam.AirlinesManager.genruntimeconfig.cache

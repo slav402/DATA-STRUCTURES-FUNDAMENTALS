@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cGZI4IWhj8X/PfaPQZJmccn7AjSlFH+WEO3ZJSmTes+5Eq6z4h/pr3GKDC6/TqzzRbNOQ69rab0DaGwJkxI5/w==",
+  "dgSpecHash": "daB2fkQ3wIoj9EptQa/1GYf/xB+RNkrj//rpB82BGT4Gw5d38vhXRe5XiP51eToRtTWKOMPV/CVWDrGdCjqHTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Salvi Zekov\\Desktop\\New folder\\Exam\\Exam.DeliveriesManager.Tests\\Exam.DeliveriesManager.Tests.csproj",
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\Exam\\Exam.DeliveriesManager.Tests\\Exam.DeliveriesManager.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Salvi Zekov\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

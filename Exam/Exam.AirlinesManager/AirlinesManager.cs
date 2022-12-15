@@ -24,6 +24,7 @@ namespace Exam.DeliveriesManager
             }
 
             this.airlinesByID[airline.Id].Flights.Add(flight);
+            flight.Airline = airline;
         }
 
         public bool Contains(Airline airline)
@@ -38,7 +39,17 @@ namespace Exam.DeliveriesManager
 
         public void DeleteAirline(Airline airline)
         {
-            throw new NotImplementedException();
+            if (!this.airlinesByID.ContainsKey(airline.Id))
+            {
+                throw new ArgumentException();
+            }
+
+            var flightsForDel = airline.Flights;
+            airlinesByID.Remove(airline.Id);
+            foreach (var flight in flightsForDel)
+            {
+                flightsById.Remove(flight.Id);
+            }
         }
 
         public IEnumerable<Airline> GetAirlinesOrderedByRatingThenByCountOfFlightsThenByName()

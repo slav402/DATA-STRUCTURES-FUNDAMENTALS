@@ -6,7 +6,11 @@ namespace Exam.DeliveriesManager
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var deliverer = new Deliverer("1", "FedEx");
+
+            var manager = new DeliveriesManager();
+
+            manager.AddDeliverer(deliverer);
         }
     }
 }

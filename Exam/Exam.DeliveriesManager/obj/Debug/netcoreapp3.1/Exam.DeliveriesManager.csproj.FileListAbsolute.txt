@@ -12,3 +12,17 @@ C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.DeliveriesManager\obj\Debug\ne
 C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.dll
 C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.pdb
 C:\Users\Salvi Zekov\Desktop\New folder\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.genruntimeconfig.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\bin\Debug\netcoreapp3.1\Exam.DeliveriesManager.exe
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\bin\Debug\netcoreapp3.1\Exam.DeliveriesManager.deps.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\bin\Debug\netcoreapp3.1\Exam.DeliveriesManager.runtimeconfig.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\bin\Debug\netcoreapp3.1\Exam.DeliveriesManager.runtimeconfig.dev.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\bin\Debug\netcoreapp3.1\Exam.DeliveriesManager.dll
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\bin\Debug\netcoreapp3.1\Exam.DeliveriesManager.pdb
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.csproj.AssemblyReference.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.AssemblyInfoInputs.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.AssemblyInfo.cs
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.csproj.CoreCompileInputs.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.dll
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.pdb
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam\Exam.DeliveriesManager\obj\Debug\netcoreapp3.1\Exam.DeliveriesManager.genruntimeconfig.cache

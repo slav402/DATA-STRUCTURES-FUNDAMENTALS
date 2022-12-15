@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y6fx0FLfTkg72tB3+sf2GXjCmRKz3Xj2Miu2SKWIHsC+BRGliVSmNBcbegkI+ZYWyxod3B1P5xULphEGumXjOg==",
+  "dgSpecHash": "3qtZCpbY3x2Sbn7FhHK13g2n098ELk6II34x82ClHvdQm/y53LjjiZjD0lBdI9qKsYxq8eS8TK+LBvKe7eTJwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Salvi Zekov\\Desktop\\New folder\\Exam\\Exam.AirlinesManager.Exam\\Exam.AirlinesManager.Tests.csproj",
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\Exam\\Exam.AirlinesManager.Exam\\Exam.AirlinesManager.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Salvi Zekov\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

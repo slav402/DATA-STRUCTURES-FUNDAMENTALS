@@ -11,6 +11,11 @@
             Weight = weight;
         }
 
+        public Package(Deliverer deliverer)
+        {
+            Deliverer = deliverer;
+        }
+
         public string Id { get; set; }
 
         public string Receiver { get; set; }
@@ -20,5 +25,7 @@
         public string Phone { get; set; }
 
         public double Weight { get; set; }
+
+        public Deliverer Deliverer { get; set; }
     }
 }

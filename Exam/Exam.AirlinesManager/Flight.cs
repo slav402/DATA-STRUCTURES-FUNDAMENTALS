@@ -11,6 +11,11 @@
             IsCompleted = isCompleted;
         }
 
+        public Flight(Airline airline)
+        {
+            Airline = airline;
+        }
+
         public string Id { get; set; }
 
         public string Number { get; set; }
@@ -20,5 +25,7 @@
         public string Destination { get; set; }
 
         public bool IsCompleted { get; set; }
+
+        public Airline Airline { get; set; }
     }
 }

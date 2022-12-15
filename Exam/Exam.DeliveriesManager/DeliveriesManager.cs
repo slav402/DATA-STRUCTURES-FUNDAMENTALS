@@ -7,7 +7,7 @@ namespace Exam.DeliveriesManager
     {
         private Dictionary<string, Deliverer> deliverersById = new Dictionary<string, Deliverer>();
         private Dictionary<string, Package> packegesById = new Dictionary<string, Package>();
-        
+
         public void AddDeliverer(Deliverer deliverer)
         {
             this.deliverersById.Add(deliverer.Id, deliverer);
@@ -21,6 +21,7 @@ namespace Exam.DeliveriesManager
         public void AssignPackage(Deliverer deliverer, Package package)
         {
             this.deliverersById[deliverer.Id].Packages.Add(package);
+            package.Deliverer = deliverer;
         }
 
         public bool Contains(Deliverer deliverer)
@@ -55,7 +56,7 @@ namespace Exam.DeliveriesManager
 
         public IEnumerable<Package> GetUnassignedPackages()
         {
-            return this.GetPackages().Where(x => x.de == null);
+            return this.GetPackages().Where(x => x.Deliverer == null);
             //throw new System.NotImplementedException();
         }
     }
