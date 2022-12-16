@@ -1,5 +1,6 @@
 ﻿using Exam.DeliveriesManager;
 using System;
+using System.Collections.Generic;
 
 namespace Exam.DeliveriesManager
 {
@@ -11,11 +12,11 @@ namespace Exam.DeliveriesManager
             Airline airRu = new Airline("02", "RU", 1);
 
             Flight flight01 = new Flight("001", "1", "Panama", "Sofia", false);
-            Flight flight02 = new Flight("002", "2", "London", "Sofia", false);
+            Flight flight02 = new Flight("002", "2", "London", "Sofia", true);
             Flight flight03 = new Flight("003", "3", "Paris", "Sofia", false);
-            Flight flight04 = new Flight("004", "4", "Rome", "Sofia", false);
+            Flight flight04 = new Flight("004", "4", "Rome", "Sofia", true);
             Flight flight05 = new Flight("005", "5", "Athena", "Moskow", false);
-            Flight flight06 = new Flight("006", "6", "NewYork", "Moskow", false);
+            Flight flight06 = new Flight("006", "6", "NewYork", "Moskow", true);
             Flight flight07 = new Flight("007", "7", "Kabul", "Moskow", false);
 
             var airlineMenager = new AirlinesManager();
@@ -32,7 +33,13 @@ namespace Exam.DeliveriesManager
             airlineMenager.AddFlight(airBg, flight03);
             airlineMenager.AddFlight(airBg, flight04);
 
-            airlineMenager.DeleteAirline(airRu);
+            //airlineMenager.DeleteAirline(airRu);
+            var result = airlineMenager.GetFlightsOrderedByCompletionThenByNumber();
+
+            foreach (var item in result)
+            {
+                Console.WriteLine($"{item.IsCompleted} {item.Number}");
+            }
         }
     }
 }

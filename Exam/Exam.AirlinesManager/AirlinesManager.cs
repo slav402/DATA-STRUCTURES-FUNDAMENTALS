@@ -64,7 +64,16 @@ namespace Exam.DeliveriesManager
 
         public IEnumerable<Airline> GetAirlinesWithFlightsFromOriginToDestination(string origin, string destination)
         {
-            throw new NotImplementedException();
+            var resultFlights = this.GetAllFlights().Where(x => x.Origin == origin).Where(x => x.Destination == destination).Where(x => x.IsCompleted == false);
+
+            List<Airline> airlines = new List<Airline>();
+
+            foreach (var flight in resultFlights)
+            {
+                airlines.Add(flight.Airline);
+            }
+
+            return airlines; 
         }
 
         public IEnumerable<Flight> GetAllFlights()
@@ -74,17 +83,25 @@ namespace Exam.DeliveriesManager
 
         public IEnumerable<Flight> GetCompletedFlights()
         {
-            throw new NotImplementedException();
+            return this.GetAllFlights().Where(x => x.IsCompleted == true);
         }
 
         public IEnumerable<Flight> GetFlightsOrderedByCompletionThenByNumber()
         {
-            throw new NotImplementedException();
+            return this.GetAllFlights().OrderBy(x => x.IsCompleted).ThenBy(x => x.Number).ToList();
         }
 
         public Flight PerformFlight(Airline airline, Flight flight)
         {
-            throw new NotImplementedException();
+            if (!airlinesByID.ContainsKey(airline.Id) || !flightsById.ContainsKey(flight.Id))
+            {
+                throw new ArgumentException();
+            }
+
+            flight.IsCompleted = true;
+
+            return flight;
+
         }
     }
 }
