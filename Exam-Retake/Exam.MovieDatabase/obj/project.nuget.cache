@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eoqzpsHfUHsiHIJQ70PMSF+tcQwx7AaKMi4igyEZxgLDJYZ0NWvVKFcNv9/3Ks89lXVYcDjuWOqLE2kRteDWxw==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\CSharp\\DATA-STRUCTURES-FUNDAMENTALS\\Exam-Retake\\Exam.MovieDatabase\\Exam.MovieDatabase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Salvi Zekov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

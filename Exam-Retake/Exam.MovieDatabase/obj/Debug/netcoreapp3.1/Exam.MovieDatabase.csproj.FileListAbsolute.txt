@@ -1,0 +1,14 @@
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\bin\Debug\netcoreapp3.1\Exam.MovieDatabase.exe
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\bin\Debug\netcoreapp3.1\Exam.MovieDatabase.deps.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\bin\Debug\netcoreapp3.1\Exam.MovieDatabase.runtimeconfig.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\bin\Debug\netcoreapp3.1\Exam.MovieDatabase.runtimeconfig.dev.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\bin\Debug\netcoreapp3.1\Exam.MovieDatabase.dll
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\bin\Debug\netcoreapp3.1\Exam.MovieDatabase.pdb
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\obj\Debug\netcoreapp3.1\Exam.MovieDatabase.csproj.AssemblyReference.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\obj\Debug\netcoreapp3.1\Exam.MovieDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\obj\Debug\netcoreapp3.1\Exam.MovieDatabase.AssemblyInfoInputs.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\obj\Debug\netcoreapp3.1\Exam.MovieDatabase.AssemblyInfo.cs
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\obj\Debug\netcoreapp3.1\Exam.MovieDatabase.csproj.CoreCompileInputs.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\obj\Debug\netcoreapp3.1\Exam.MovieDatabase.dll
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\obj\Debug\netcoreapp3.1\Exam.MovieDatabase.pdb
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase\obj\Debug\netcoreapp3.1\Exam.MovieDatabase.genruntimeconfig.cache

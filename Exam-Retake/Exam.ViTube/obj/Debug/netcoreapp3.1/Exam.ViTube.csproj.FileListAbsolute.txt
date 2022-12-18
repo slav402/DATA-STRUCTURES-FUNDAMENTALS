@@ -1,0 +1,14 @@
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\bin\Debug\netcoreapp3.1\Exam.ViTube.exe
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\bin\Debug\netcoreapp3.1\Exam.ViTube.deps.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\bin\Debug\netcoreapp3.1\Exam.ViTube.runtimeconfig.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\bin\Debug\netcoreapp3.1\Exam.ViTube.runtimeconfig.dev.json
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\bin\Debug\netcoreapp3.1\Exam.ViTube.dll
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\bin\Debug\netcoreapp3.1\Exam.ViTube.pdb
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\obj\Debug\netcoreapp3.1\Exam.ViTube.csproj.AssemblyReference.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\obj\Debug\netcoreapp3.1\Exam.ViTube.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\obj\Debug\netcoreapp3.1\Exam.ViTube.AssemblyInfoInputs.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\obj\Debug\netcoreapp3.1\Exam.ViTube.AssemblyInfo.cs
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\obj\Debug\netcoreapp3.1\Exam.ViTube.csproj.CoreCompileInputs.cache
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\obj\Debug\netcoreapp3.1\Exam.ViTube.dll
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\obj\Debug\netcoreapp3.1\Exam.ViTube.pdb
+C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.ViTube\obj\Debug\netcoreapp3.1\Exam.ViTube.genruntimeconfig.cache

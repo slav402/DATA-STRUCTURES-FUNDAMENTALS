@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Exam.MovieDatabase.Tests
+build_property.ProjectDir = C:\repo\CSharp\DATA-STRUCTURES-FUNDAMENTALS\Exam-Retake\Exam.MovieDatabase.Tests\
